@@ -23,6 +23,9 @@ You can implement AI SAFE² manually using the documentation in this repository.
 
 * [View Pillar 1: Sanitize & Isolate](/01-sanitize-isolate)
 * [View Pillar 2: Audit & Inventory](/02-audit-inventory)
+* [View Pillar 2: Fail-Safe & Recovery](/03-afaile-safe-inventory)
+* [View Pillar 2: Engage & Monitor](/02-engage-inventory)
+* [View Pillar 2: Evolve & Educate](/02-evolve-inventory)
 
 ## ⚡ Automate This (Agentic Shield)
 Implementing this framework manually is a good start, but it doesn't scale.
