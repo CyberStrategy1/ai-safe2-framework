@@ -44,5 +44,22 @@ Implementing this framework manually is a good start, but it doesn't scale.
 ## 🤝 Contributing
 We welcome contributions from the security community. Please read `CONTRIBUTING.md` for details.
 
+## ⚖️ Licensing & Usage Rights
+
+This project uses a **Dual-License Model** to support both open innovation and standardized governance.
+
+### 💻 A. The Code: MIT License
+*Applies to: The MCP Server scripts, JSON schemas, and HTML dashboards.*
+*   **You Can:** Use this code commercially, modify it, close-source your modifications, and sell software built with it.
+*   **The Intent:** Build products on top of this. We want this to be the infrastructure of the AI industry.
+
+### 📘 B. The Framework/Docs: CC-BY-SA 4.0
+*Applies to: The "AI SAFE²" methodology, the pillar definitions, and the user manuals.*
+*   **You Can:** Share, copy, and redistribute the material. You can adapt it for your internal needs.
+*   **You Must:**
+    1.  **Attribution:** Give credit to **Cyber Strategy Institute**.
+    2.  **ShareAlike:** If you create a public derivative (e.g., "AI SAFE v3.0"), you must share those improvements back to the community under this same license.
+*   **The Intent:** Knowledge should be open. If you improve the standard, the community benefits.
+
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
