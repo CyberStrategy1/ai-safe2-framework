@@ -1,6 +1,15 @@
-MIT License
+DUAL LICENSE AGREEMENT
+======================
 
-Copyright (c) 2025 Cyber Strategy Institute
+This repository is comprised of two distinct components: The Source Code and The Framework/Documentation. They are licensed as follows:
+
+1. THE SOFTWARE (CODE)
+----------------------
+Applies to: All files ending in .py, .json, .html, .js, .css, and script files.
+
+Licensed under the MIT License.
+
+Copyright (c) 2025-2026 Cyber Strategy Institute
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +28,20 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+2. THE FRAMEWORK (DOCUMENTATION & TAXONOMY)
+-------------------------------------------
+Applies to: The AI SAFE² methodology, pillar definitions, README files, PDFs, and Markdown documentation (.md).
+
+Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+
+You are free to:
+* Share — copy and redistribute the material in any medium or format.
+* Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+
+Under the following terms:
+* Attribution — You must give appropriate credit to "Cyber Strategy Institute", provide a link to the license, and indicate if changes were made.
+* ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+Full Legal Code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
