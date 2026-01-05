@@ -8,7 +8,7 @@ This document outlines the strategic evolution of the AI SAFE² framework, detai
 **Released:** November 2025
 **Core Concept:** "Mission Control for Autonomous Drones."
 
-Version 2.1 transforms AI SAFE² into an Agentic GRC + Security blueprint. It integrates 35+ specialized "Gap Fillers" specifically designed to address swarm intelligence, Non-Human Identity (NHI) governance, and advanced memory security.
+Version 2.1 transforms AI SAFE² into an Agentic GRC + Security blueprint. It integrates 30+ specialized "Gap Fillers" specifically designed to address swarm intelligence, Non-Human Identity (NHI) governance, and advanced memory security.
 
 ### Key Changes by Pillar
 *   **Pillar 1 (Sanitize & Isolate):** Now includes OpenSSF Model Signing (OMS), real-time secret scanning (GitGuardian), and mitigation for memory attacks (AgentPoison). Isolation moves to Multi-Agent Boundary Enforcement and P2P trust scoring.
@@ -17,15 +17,15 @@ Version 2.1 transforms AI SAFE² into an Agentic GRC + Security blueprint. It in
 *   **Pillar 4 (Engage & Monitor):** Formalizes human oversight for consensus failures and Just-In-Time (JIT) privilege elevation for agents. Monitoring now detects "ghost tokens" and poisoned vector embeddings.
 *   **Pillar 5 (Evolve & Educate):** Focuses on agile consensus algorithms and updates to OMS specifications. Training now includes Swarm Manager Certification.
 
-> **Analogy:** If v1.0 was a propeller plane, v2.1 is the engineering manual for a supersonic jet fleet.
+> **Analogy:** If v1.0 was a propeller plane, v2.1 is the advanced mission control center required to manage an entire fleet of autonomous drones, ensuring each drone (agent) has the right credentials, stays within its flight path, and can be instantly grounded if its internal logic is compromised.
 
 ---
 
 ## 🏢 Version 2.0: The Enterprise Operational Standard
-**Released:** [Date]
+**Released:** October 2025
 **Core Concept:** "High-Tech Building Security."
 
-The shift from v1.0 to v2.0 represented a move from a conceptual model to a granular, enterprise-grade operational framework. It expanded the 5 pillars into 99+ detailed subtopics and integrated with NIST, OWASP, and MITRE ATLAS.
+The shift from v1.0 to v2.0 represented a move from a conceptual model to a granular, enterprise-grade operational framework. It expanded the 5 pillars into 99 detailed subtopics and integrated with NIST, OWASP, and MITRE ATLAS.
 
 ### Key Upgrades
 *   **Architecture:** Introduced the Five-Layer Architecture Model covering the entire AI stack.
@@ -42,7 +42,7 @@ The shift from v1.0 to v2.0 represented a move from a conceptual model to a gran
 ---
 
 ## 🏛️ Version 1.0: The Foundational Structure
-**Released:** [Date]
+**Released:** June 2025
 **Core Concept:** "The Blueprint."
 
 The original conceptual foundation that established the **S-A-F-E-E** methodology.
