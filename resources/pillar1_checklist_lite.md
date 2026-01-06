@@ -31,4 +31,5 @@ This checklist covers the **critical "Air Lock" controls** required to secure an
 *   **6-9 Checked:** 🟠 **AT RISK.** You have basic hygiene but lack advanced agentic hardening.
 *   **10 Checked:** 🟢 **SECURE.** You are ready to audit Pillar 2 (Inventory & Audit).
 
-👉 **[Get the Full Framework & Automated Scorecard Here](https://cyberstrategyinstitute.com/AI-Safe2/)**
+💡 Automate this Audit: Download the AI SAFE² Implementation Toolkit ($97). Includes Excel Auto-Calculators, Legal Policy Templates, and the Risk Command Center Dashboard. 
+👉 **[Get the Toolkit]. (https://cyberstrategyinstitute.com/AI-Safe2/)**
