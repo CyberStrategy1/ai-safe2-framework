@@ -201,7 +201,7 @@ AI SAFE² is a living standard that adapts to the threat landscape.
 
 | Version | Focus | Key Metaphor | Control Depth |
 | :--- | :--- | :--- | :--- |
-| **v2.1** | **Agentic & Distributed** | Mission Control | **127 Controls** (Swarm, NHI, Memory) |
+| **v2.1** | **Agentic & Distributed** | Mission Control | **128 Controls** (Swarm, NHI, Memory) |
 | **v2.0** | Enterprise Operations | Building Security | **99 Controls** (NIST/ISO Mapping) |
 | **v1.0** | Foundational Concepts | The Blueprint | **10 Topics** (Conceptual) |
 
