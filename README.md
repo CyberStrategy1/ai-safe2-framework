@@ -12,7 +12,7 @@
 [![Scope](https://img.shields.io/badge/Scope-128_Controls_%7C_Agentic_%7C_NHI_%7C_Swarm-red)](https://cyberstrategyinstitute.com/AI-Safe2/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/CyberStrategy1/ai-safe2-framework/graphs/commit-activity)
 
-[**The Narrative**](#-the-end-of-the-race) | [**The Architecture**](#-5-layer-architectural-coverage) | [**Universal GRC**](#-the-universal-rosetta-stone) | [**Comparison**](#-why-the-race-is-over) | [**Get Toolkit**](#-fast-track-implementation-the-toolkit) | [**Contributing**](#-contributing)
+[**The Narrative**](#narrative) | [**The Architecture**](#architecture) | [**Universal GRC**](#grc) | [**Comparison**](#comparison) | [**Get Toolkit**](#-fast-track-implementation-the-toolkit) | [**Contributing**](#contributing)
 
 </div>
 
@@ -43,6 +43,7 @@ The framework is architected around **5 Strategic Pillars** that provide defense
 *   ![P5](https://img.shields.io/badge/Pillar_5-Evolve_&_Educate-b0158a?style=for-the-badge&labelColor=black) **The Feedback Loop:** Continuous Red Teaming, threat intelligence integration, and operator training.
 
 ---
+<a id="narrative"></a>
 ### 🆚 Positioning: Why AI SAFE²? (The "Game Over" Matrix)
 Most tools solve *one* layer of the problem. AI SAFE² is the **Unified Operating System** that connects them all.
 
@@ -63,7 +64,7 @@ AI SAFE² v2.1 is engineered for the **Modern AI Stack**, not just chatbots. It 
 > **The 95% Advantage:** We have done the heavy lifting. By adopting AI SAFE², you inherit a pre-built governance structure that satisfies **ISO 42001, NIST AI RMF, SOC 2, HIPAA, and GDPR** simultaneously.
 
 ---
-
+<a id="architecture"></a>
 ## 🏗️ 5-Layer Architectural Coverage
 
 Most frameworks stop at the model. AI SAFE² v2.1 explicitly models and mandates controls across the **entire real-world stack**, securing the tools your developers actually use (*Cursor, Make, LangGraph, AutoGen*).
@@ -93,7 +94,7 @@ AI SAFE² isn't just a list; it's a multi-dimensional defense grid.
 > *Legend: Green = Dedicated Control | 🔗 = Inherited Coverage*
 
 ---
-
+<a id="grc"></a>
 ## 🏛️ The "Universal Rosetta Stone"
 
 The framework is engineered for **simultaneous compliance reporting**. A single implementation of AI SAFE² controls satisfies the requirements of multiple global standards, eliminating the need for fragmented governance initiatives.
@@ -122,7 +123,7 @@ The framework is engineered for **simultaneous compliance reporting**. A single 
 *   **Foundational Security:** We treat **ISO 27001 & NIST CSF** as the general security foundation, mapping the AI-specific S-A-F-E-E pillars directly into standard enterprise operations.
 
 ---
-
+<a id="comparison"></a>
 ## 🆚 Why The Race Is Over (Comparison Matrix)
 
 Why use AI SAFE² vs. trying to patch together legacy tools?
@@ -235,7 +236,7 @@ AI SAFE² is a living standard that adapts to the threat landscape.
 │   └── ...
 └── assets/                 # Visual Maps & Diagrams
 ``` 
-
+<a id="contributing"></a>
 ## 🤝 Join the Vanguard (Community)
 
 This isn't just a repo; it's a mission. We recognize and reward the top 1% of security engineers who contribute to the standard.
