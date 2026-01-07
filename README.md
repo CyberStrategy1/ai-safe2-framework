@@ -217,6 +217,7 @@ AI SAFE² is a living standard that adapts to the threat landscape.
 ├── SECURITY.md             # Vulnerability Reporting Policy
 ├── EVOLUTION.md            # Version History (v1.0 -> v2.1) & Changelog
 ├── MAINTAINERS.md          # Governance & Decision Authority
+├── VANGUARD_PROGRAM.md     # Community Tiers & Rewards (Gamification)
 ├── taxonomy/               # The Core Framework (Markdown Definitions)
 │   ├── 01_sanitize_isolate.md
 │   ├── 02_audit_inventory.md
