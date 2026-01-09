@@ -1,0 +1,6 @@
+default: true
+MD013: false  # Disable Line Length check (We have long paragraphs)
+MD033: false  # Disable Inline HTML check (We used <div> for centering)
+MD041: false  # Disable H1 First check (We have badges first)
+MD024: false  # Disable Duplicate Header check
+MD029: false  # Disable Ordered List Numbering check
