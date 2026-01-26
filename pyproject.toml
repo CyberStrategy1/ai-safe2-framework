@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ai-safe2-gateway"
+version = "2.1.0"
+dependencies = [
+  "fastapi",
+  "uvicorn",
+  "redis",
+  "prometheus-client",
+  "pyyaml",
+  "pydantic",
+  "httpx"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["gateway"]
