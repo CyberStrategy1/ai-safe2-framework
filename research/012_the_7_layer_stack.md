@@ -13,7 +13,7 @@ The solution lies in a unified architecture that layers **Ethical Functionality 
 ### 📊 Visualizing the Architecture
 
 <div align="center">
-  <img src="../assets/EFA_AI SAFE2_E7_v2.png" alt="Forensics to Prevention Governance Layer" width="45%" />
+  <img src="../assets/EFA_AI SAFE2_E7_v2.png" alt="Forensics to Prevention Governance Layer" width="100%" />
 </div>
 
 ---
