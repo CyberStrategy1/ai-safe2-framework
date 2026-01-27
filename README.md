@@ -27,6 +27,7 @@ While legacy GRC platforms (e.g., Vanta, Drata) are still struggling to define w
 
 > **What this Means:** AI SAFE² is the only framework that maps **Agentic Swarms, Non-Human Identities (NHI), and Vector DB risks** directly to **ISO 42001, NIST AI RMF, SOC 2 and 10+ other frameworks** controls into a single operational schema.
 
+
 ---
 ## 🏗️ The Core Architecture (The 5 Pillars)
 
@@ -62,6 +63,20 @@ AI SAFE² v2.1 is engineered for the **Modern AI Stack**, not just chatbots. It 
 *   **Infrastructure:** Vector Databases (Pinecone/Weaviate), MCP Servers, and Dockerized Agents.
 
 > **The 95% Advantage:** We have done the heavy lifting. By adopting AI SAFE², you inherit a pre-built governance structure that satisfies **ISO 42001, NIST AI RMF, SOC 2, HIPAA, and GDPR** simultaneously.
+
+---
+## 🚀 Get Started in 5 Minutes
+
+Choose your path to secure AI:
+
+| I am a... | 🛠️ Action | ⏱️ Time |
+| :--- | :--- | :--- |
+| **Developer** | [**Run the 5-Minute Audit**](QUICKSTART_5_MIN.md) | 5 min |
+| **Python Engineer** | [**Implement Code Guardrails**](guides/secure_coding_python.md) | 15 min |
+| **Automation Pro** | [**Secure n8n / Make Workflows**](guides/secure_automation_n8n_make.md) | 10 min |
+| **CISO / Manager** | [**Download the Implementation Toolkit**](https://cyberstrategyinstitute.com/AI-Safe2/) | Instant |
+
+> *Stuck? Check the [Troubleshooting Guide](TROUBLESHOOTING.md) or join our [Discord](LINK).*
 
 ---
 <a id="architecture"></a>
