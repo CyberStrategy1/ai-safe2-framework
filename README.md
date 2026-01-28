@@ -245,6 +245,8 @@ AI SAFE² is a living standard that adapts to the threat landscape.
 ## 📂 Repository Structure
 
 ```text
+## 📂 Repository Structure
+
 /
 ├── .github/                   # CI/CD Workflows & Dependabot Config
 ├── 01-sanitize-isolate/       # Pillar 1: Input Filters & Boundaries
@@ -260,11 +262,13 @@ AI SAFE² is a living standard that adapts to the threat landscape.
 ├── resources/                 # Community Tools & Checklists
 ├── scanner/                   # 🕵️ The Audit Scanner CLI
 ├── ADVANCED_AGENT_THREATS.md  # Guide: Swarm & RAG Vulnerabilities
+├── Dockerfile                 # Gateway Build Instruction
 ├── QUICKSTART_5_MIN.md        # ⚡ START HERE: 5-Minute Audit
 ├── docker-compose.yml         # Container Orchestration
 ├── pyproject.toml             # Python Dependencies
 ├── README.md                  # The Universal GRC Standard (You are here)
-└── ...                        # Governance (LICENSE, SECURITY, CONTRIBUTING)
+└── skill.md                   # 🧠 The Brain (Context for AI Agents/IDEs)
+
 ``` 
 <a id="contributing"></a>
 ## 🤝 Join the Vanguard (Community)
