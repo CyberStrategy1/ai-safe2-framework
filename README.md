@@ -268,6 +268,7 @@ AI SAFE² is a living standard that adapts to the threat landscape.
 ├── scanner/                   # 🕵️ The Audit Scanner CLI
 ├── ADVANCED_AGENT_THREATS.md  # Guide: Swarm & RAG Vulnerabilities
 ├── Dockerfile                 # Gateway Build Instruction
+├── INTEGRATIONS.md          # 🔌 Ecosystem Map (Cursor, n8n, CI/CD)
 ├── QUICKSTART_5_MIN.md        # ⚡ START HERE: 5-Minute Audit
 ├── docker-compose.yml         # Container Orchestration
 ├── pyproject.toml             # Python Dependencies
