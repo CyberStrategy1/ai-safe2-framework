@@ -27,7 +27,6 @@ graph TD
 ---
 
 ## ☁️ Path 1: Cloud Automation (No-Code / SaaS)
-*You cannot run Docker in the cloud. You must build the Firewall INSIDE your workflow.*
 
 ### 🧠 Prevention (The Brain)
 *Use `skill.md` to turn your AI Tools into Security Architects.*
@@ -40,6 +39,8 @@ Planning a system? Need specific auditing?
 | **Claude Projects** | Upload `skill.md` to **Project Knowledge**. | Claude becomes a dedicated "AI SAFE² Consultant." |
 | **ChatGPT** | Upload `skill.md` to **Knowledge** in "Create a GPT". | Creates a custom GPT that reviews your architecture. |
 | **Perplexity** | Attach `skill.md` to your search/query. | "Analyze this GitHub repo for violations based on the attached framework." |
+
+*You cannot run Docker in the cloud. You must build the Firewall INSIDE your workflow.*
 
 ### ⚡ n8n (Cloud Version)
 **The Fix:** The "JavaScript Firewall" Node.
