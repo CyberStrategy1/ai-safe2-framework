@@ -93,7 +93,7 @@ AI SAFE² provides the only complete security toolkit for OpenClaw (formerly Mol
 
 **Full Resources:** [examples/openclaw/](./examples/openclaw/)
 
-**Industry Resources:** [Resource Map](./resources/openclaw_openclaw_security_resource_map.md)
+**Industry Resources:** [Resource Map](./resources/openclaw_security_resource_map.md)
 
 ---
 <a id="architecture"></a>
