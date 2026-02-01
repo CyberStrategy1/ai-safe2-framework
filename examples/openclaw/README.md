@@ -10,7 +10,7 @@
 
 **Having issues?** → Check [Troubleshooting Guide](./troubleshooting.md)
 
-**Technical deep-dive?** → See [Full Integration Guide](../../guides/openclaw-integration-guide.md)
+**Need a Full Integration Guide?** → See [Full Integration Guide](../../guides/openclaw-integration-guide.md)
 
 ---
 
@@ -220,5 +220,6 @@ Response to User (secrets redacted)
 **Built by:** [Cyber Strategy Institute](https://cyberstrategyinstitute.com)  
 **License:** MIT (code) + CC-BY-SA 4.0 (documentation)  
 **Version:** 2.1
+
 
 
