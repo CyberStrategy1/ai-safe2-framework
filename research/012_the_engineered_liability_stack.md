@@ -35,7 +35,7 @@ This analysis outlines why these two frameworks create the only defensible archi
     5.  **Evolve & Educate:** Red-teaming against threats like "AgentPoison".
 
 <div align="center">
-  <img src="../assets/EFA_AI SAFE2_E7_v2.png" alt="Forensics to Prevention Governance Layer" width="100%" />
+  <img src="../assets/AI Governance Engineered Certainty Stack v3.png" alt="Forensics to Prevention Governance Layer" width="100%" />
 </div>
 
 ---
@@ -100,3 +100,5 @@ The "Move Fast and Break Things" Era is Over. In the age of Agentic AI, **"If yo
 *   **Existential Risk:** Without EFA, your organization risks "Agency Leakage"—slowly ceding decision-making power to software until you no longer understand why your company is making decisions.
 
 **The Bottom Line:** Combining EFA and AI SAFE² is the difference between **Forensics** (figuring out why you died) and **Security** (staying alive). It turns "Safe AI" from a vague wish into a distinct, engineered reality.
+
+> *Next Step Integration of [**EFA & AI SAFE²**](013_the_7_layer_stack.md)*
