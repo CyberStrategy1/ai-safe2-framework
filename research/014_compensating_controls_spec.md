@@ -75,7 +75,7 @@ FUNCTION Sanitize_Input(User_Text):
 
 ### **Image 2: Control Spec 3 (State Verification)**
 <p align="center">
-  <img src="assets/AI%20Cryptographic%20State%20Verification%20Workflow%20Control%20Spec%203.png" alt="Cryptographic State Verification Workflow" width="100%">
+  <img src="../assets/AI%20Cryptographic%20State%20Verification%20Workflow%20Control%20Spec%203.png" alt="Cryptographic State Verification Workflow" width="100%">
 </p>
 
 ## Control Spec 3: Cryptographic State Verification (Pillar 2)
@@ -106,8 +106,8 @@ FUNCTION Verify_State(Memory_Volume):
 
 ### **Image 3: Control Spec 4 & 5 (NHI & Swarms)**
 <p align="center">
-  <img src="assets/Control%20Spec%204%20%26%205%20(NHI%20%26%20Swarms)%20v2.png" alt="Control Spec 4 & 5 NHI and Swarms" width="100%">
-</p>
+  <img src="../assets/Control%20Spec%204%20%26%205%20(NHI%20%26%20Swarms)%20v2.png" alt="Control Spec 4 & 5 NHI and Swarms" width="100%">
+</p> 
 
 ## Control Spec 4: NHI Ephemeral Binding (Pillar 1 & 2)
 **Objective:** Prevent "Stale Credential" abuse and lateral movement by Non-Human Identities (NHI).
