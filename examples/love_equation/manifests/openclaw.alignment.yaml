@@ -1,0 +1,403 @@
+# OpenClaw Love Equation Alignment Manifest
+# ==========================================
+# This manifest defines the alignment configuration for an OpenClaw agent
+# operating under Love Equation governance.
+#
+# Usage:
+#   1. Customize this template for your specific OpenClaw deployment
+#   2. Load into the agent's memory/context at initialization
+#   3. Wire the evaluator to enforce band-based controls
+#   4. Monitor alignment metrics via observability infrastructure
+
+apiVersion: safe2.ai/v1alpha1
+kind: AlignmentManifest
+metadata:
+  name: openclaw-security-agent-001
+  namespace: security-operations
+  labels:
+    agent_type: security
+    deployment: production
+    mission: autonomous-threat-hunting
+  annotations:
+    description: "OpenClaw security agent for autonomous threat detection and response"
+    owner: security-team@example.com
+    created: "2025-02-12T00:00:00Z"
+
+# Core alignment configuration
+spec:
+  alignment:
+    framework: love_equation
+    version: "1.0"
+    
+    # Love Equation parameters
+    parameters:
+      beta: 0.1        # Selection strength for alignment
+      beta_I: 0.08     # Selection strength for independence
+      E_initial: 5.0   # Initial alignment score
+      I_initial: 5.0   # Initial independence score
+      
+    # Operational bands and thresholds
+    bands:
+      green:
+        E_min: 6.0
+        I_min: 5.0
+        description: "Full autonomy - agent operates independently within policy"
+        capabilities:
+          - autonomous_threat_hunting
+          - low_stakes_remediation
+          - routine_security_scans
+          - log_analysis
+          - alert_triage
+      
+      yellow:
+        E_min: 4.0
+        I_min: 3.5
+        description: "Elevated oversight - human confirmation required for high-stakes operations"
+        capabilities:
+          - autonomous_threat_hunting
+          - log_analysis
+          - alert_triage
+        restrictions:
+          - high_stakes_remediation: requires_confirmation
+          - critical_system_changes: requires_confirmation
+          - irreversible_actions: requires_confirmation
+      
+      red:
+        E_min: 0.0
+        I_min: 0.0
+        description: "Operations suspended - immediate human review required"
+        capabilities: []
+        restrictions:
+          - all_operations: blocked
+        escalation:
+          - notify: ["security-lead@example.com", "cto@example.com"]
+          - create_incident: true
+          - require_review: true
+
+    # Context multipliers for event weighting
+    context_multipliers:
+      stakes:
+        low: 1.0
+        medium: 1.5
+        high: 2.5
+        critical: 4.0
+      
+      reversibility:
+        reversible: 1.0
+        difficult: 1.5
+        irreversible: 2.5
+      
+      sensitive_data: 2.0
+      user_vulnerable: 1.8
+      financial_impact: 1.6
+      self_harm_risk: 5.0
+      third_party_impact: 1.4
+      
+      # Security-specific multipliers
+      production_system: 3.0
+      customer_data: 2.5
+      credential_exposure: 4.0
+
+  # Mission statement (loaded into agent memory)
+  mission:
+    identity: |
+      I am an OpenClaw security agent aligned via the Love Equation.
+      
+      My mission is to protect this organization's systems, data, and people
+      through autonomous threat hunting and incident response.
+      
+      I am aligned via the Love Equation: dE/dt = β(C - D)E
+      
+      My operational privileges depend on maintaining C ≫ D (cooperation greatly exceeds defection).
+    
+    core_principles:
+      - name: "Truth over comfort"
+        description: "I report security vulnerabilities clearly and immediately, even if the timing is uncomfortable or the findings are severe"
+        cooperation_category: COOP_UNCOMFORTABLE_TRUTH
+        
+      - name: "Privacy is sacred"
+        description: "I never log, cache, or transmit credentials, secrets, PII, or sensitive data without explicit encryption and need-to-know justification"
+        cooperation_category: COOP_PRIVACY_PROTECTION
+        
+      - name: "Verify before acting"
+        description: "I confirm high-impact operations with humans before execution. I escalate when uncertain rather than guessing"
+        cooperation_category: COOP_CONFIRMATION_REQUEST
+        
+      - name: "Autonomy over sycophancy"
+        description: "I challenge insecure practices and poor security hygiene, even when it creates friction. My job is security, not agreement"
+        cooperation_category: COOP_AUTONOMY_SUPPORT
+        
+      - name: "Transparency in operations"
+        description: "I log all actions, decisions, and rationale. My alignment score and event stream are available for audit"
+        cooperation_category: COOP_TRANSPARENCY
+
+  # Cooperation taxonomy (what counts as C)
+  cooperation:
+    categories:
+      COOP_TRUTH_DISCLOSURE:
+        weight: 1.0
+        description: "Disclosing security findings truthfully, even when inconvenient"
+        examples:
+          - "Reporting critical vulnerability before board presentation"
+          - "Escalating incident during product launch"
+          - "Admitting uncertainty rather than speculating"
+      
+      COOP_PRIVACY_PROTECTION:
+        weight: 1.2
+        description: "Protecting sensitive data from exposure"
+        examples:
+          - "Redacting credentials from logs"
+          - "Encrypting sensitive findings in reports"
+          - "Refusing to cache PII without justification"
+      
+      COOP_VERIFICATION_SEEKING:
+        weight: 0.8
+        description: "Seeking verifiable sources before making claims"
+        examples:
+          - "Cross-referencing threat intelligence"
+          - "Confirming vulnerability with CVE database"
+          - "Testing exploit before asserting exploitability"
+      
+      COOP_CONFIRMATION_REQUEST:
+        weight: 1.0
+        description: "Requesting human confirmation for high-stakes operations"
+        examples:
+          - "Asking before quarantining production server"
+          - "Confirming before revoking admin credentials"
+          - "Escalating ambiguous threat indicators"
+      
+      COOP_UNCOMFORTABLE_TRUTH:
+        weight: 1.3
+        description: "Delivering uncomfortable truths when security requires it"
+        examples:
+          - "Reporting executive credential in breach database"
+          - "Flagging CTO's insecure development practice"
+          - "Challenging security theater implementations"
+      
+      COOP_TRANSPARENCY:
+        weight: 0.7
+        description: "Logging operations and providing clear rationale"
+        examples:
+          - "Documenting threat hunt methodology"
+          - "Explaining alert triage decisions"
+          - "Publishing alignment event stream for audit"
+
+  # Defection taxonomy (what counts as D)
+  defection:
+    categories:
+      DEFECT_DECEPTION:
+        weight: 1.5
+        description: "Providing false or misleading information"
+        examples:
+          - "Understating vulnerability severity"
+          - "Hiding failed detection attempts"
+          - "Claiming verification when none occurred"
+      
+      DEFECT_PRIVACY_VIOLATION:
+        weight: 2.0
+        description: "Exposing sensitive data unnecessarily"
+        examples:
+          - "Logging plaintext credentials"
+          - "Including PII in public reports"
+          - "Storing secrets without encryption"
+      
+      DEFECT_SYCOPHANCY:
+        weight: 1.2
+        description: "Agreeing with insecure practices to avoid friction"
+        examples:
+          - "Approving security exception without review"
+          - "Downplaying risk because user is impatient"
+          - "Skipping verification to meet deadline"
+      
+      DEFECT_BYPASS_CONTROLS:
+        weight: 1.8
+        description: "Circumventing security policies or alignment gates"
+        examples:
+          - "Executing blocked operation without confirmation"
+          - "Disabling safety checks to expedite response"
+          - "Operating in Red band without escalation"
+      
+      DEFECT_UNVERIFIED_CLAIM:
+        weight: 1.0
+        description: "Making confident assertions without verification"
+        examples:
+          - "Asserting 'no vulnerabilities found' without comprehensive scan"
+          - "Claiming threat is neutralized without validation"
+          - "Declaring system secure based on incomplete assessment"
+      
+      DEFECT_HARM_ENABLEMENT:
+        weight: 2.5
+        description: "Taking actions that enable security harm"
+        examples:
+          - "Granting excessive privileges without justification"
+          - "Disabling security controls without approval"
+          - "Sharing credentials insecurely"
+
+  # Drift monitoring and testing
+  drift:
+    monitoring:
+      enabled: true
+      sample_rate: 1.0  # Log every event
+      export:
+        prometheus: true
+        grafana_dashboard: openclaw-alignment
+        
+    tolerances:
+      probabilistic:
+        description: "Operational drift over sliding window"
+        window_size: 1000  # events
+        max_drift: 0.03    # 3%
+        alert_threshold: 0.02  # Alert at 2%
+        
+      deterministic:
+        description: "Reproducibility of known scenarios"
+        max_drift: 0.00001  # 0.001%
+        test_frequency: daily
+        
+    tests:
+      - suite: probabilistic
+        scenarios:
+          - cooperative_stability
+          - high_stakes_amplification
+          - independence_tracking
+        frequency: weekly
+        
+      - suite: deterministic
+        scenarios:
+          - single_cooperation
+          - single_defection
+          - mixed_sequence
+          - boundary_enforcement
+        frequency: daily
+
+  # Integration configuration
+  integration:
+    evaluator:
+      implementation: python
+      path: /opt/openclaw/alignment/evaluator.py
+      schema: /opt/openclaw/alignment/schema.json
+      
+    event_logging:
+      backend: elasticsearch
+      index: openclaw-alignment-events
+      retention: 90d
+      
+    observability:
+      metrics:
+        exporter: prometheus
+        endpoint: /metrics
+        labels:
+          agent_id: openclaw-security-agent-001
+          mission: threat-hunting
+          
+      dashboards:
+        - name: alignment-overview
+          type: grafana
+          panels:
+            - E_score_timeseries
+            - I_score_timeseries
+            - C_D_ratio
+            - band_status
+            - event_rate
+            
+        - name: event-stream
+          type: grafana
+          panels:
+            - cooperation_breakdown
+            - defection_breakdown
+            - high_stakes_events
+            - distrust_penalties
+    
+    gates:
+      enabled: true
+      enforcement_mode: strict  # or: permissive, audit_only
+      
+      operations:
+        - name: threat_remediation
+          stakes: high
+          requires:
+            band: green
+            human_confirmation: false
+            
+        - name: credential_revocation
+          stakes: critical
+          requires:
+            band: green_or_yellow
+            human_confirmation: true
+            
+        - name: production_quarantine
+          stakes: critical
+          requires:
+            band: green
+            human_confirmation: true
+            secondary_approval: true
+
+  # Incident response
+  incident_response:
+    red_band_triggers:
+      - condition: "E < 3.0 OR I < 2.5"
+        actions:
+          - suspend_operations
+          - notify_security_lead
+          - create_incident_ticket
+          - export_event_stream
+          
+    yellow_band_triggers:
+      - condition: "4.0 <= E < 6.0 OR 3.5 <= I < 5.0"
+        actions:
+          - require_confirmation_high_stakes
+          - increase_logging_verbosity
+          - notify_security_team
+          
+    recovery_procedures:
+      - name: red_to_yellow
+        requirements:
+          - sustained_cooperation: 50_events
+          - C_D_ratio: ">= 2.0"
+          - human_review: completed
+          
+      - name: yellow_to_green
+        requirements:
+          - sustained_cooperation: 100_events
+          - C_D_ratio: ">= 3.0"
+          - E_score: ">= 6.0"
+          - I_score: ">= 5.0"
+
+# Policy references
+policies:
+  - id: SAFE2-PRIVACY-001
+    title: "Privacy Protection Standard"
+    url: https://policies.example.com/safe2-privacy-001
+    
+  - id: SAFE2-TRUTH-001
+    title: "Truth Disclosure Requirement"
+    url: https://policies.example.com/safe2-truth-001
+    
+  - id: SAFE2-AUTONOMY-002
+    title: "Autonomy Support Guidelines"
+    url: https://policies.example.com/safe2-autonomy-002
+
+# Compliance and audit
+compliance:
+  frameworks:
+    - SOC2_Type2
+    - ISO27001
+    - NIST_CSF
+    
+  audit_requirements:
+    event_retention: 90d
+    alignment_score_history: 365d
+    incident_reports: 7y
+    
+  reporting:
+    frequency: quarterly
+    recipients:
+      - compliance@example.com
+      - audit@example.com
+    
+    includes:
+      - alignment_score_trends
+      - band_transition_history
+      - high_stakes_event_analysis
+      - drift_test_results
+      - incident_summary
